@@ -1,19 +1,14 @@
 {
-  "name": "n8n-nodes-example",
+  "name": "n8n-nodes-random-quote",
   "version": "0.1.0",
   "description": "",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
   "author": {
-    "name": "",
+    "name": "mht",
     "email": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -32,13 +27,9 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/RandomNote/RandomQuote.node.js"
     ]
   },
   "devDependencies": {
